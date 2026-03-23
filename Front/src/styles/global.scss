@@ -1,0 +1,42 @@
+// # region Animations
+@import './animations/shakeAnimation.scss';
+@import './animations/zoomAnimation.scss';
+// #endregion
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+html {
+    height: 100vh;
+    height: 100dvh;
+    overscroll-behavior: none;
+    overflow: hidden;
+    body {
+        overflow: hidden;
+        height: 100%;
+        ul,
+        ol {
+            list-style-position: inside;
+        }
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+.v-card-text {
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+}

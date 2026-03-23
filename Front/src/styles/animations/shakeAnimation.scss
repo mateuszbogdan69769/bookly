@@ -1,0 +1,35 @@
+html {
+    @keyframes shake-horizontal {
+        0%,
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+        10%,
+        30%,
+        50%,
+        70% {
+            -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+        }
+        20%,
+        40%,
+        60% {
+            -webkit-transform: translateX(6px);
+            transform: translateX(6px);
+        }
+        80% {
+            -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+        }
+        90% {
+            -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
+        }
+    }
+
+    .shake-animation {
+        -webkit-animation: shake-horizontal 0.8s ease-in-out both;
+        animation: shake-horizontal 0.8s ease-in-out both;
+    }
+}
