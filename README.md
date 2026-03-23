@@ -1,4 +1,4 @@
-# 📅 Booking App — Reservation System
+# 📅 Bookly App — Reservation System
 
 A web application for managing reservations and guest information efficiently and securely. Built with a scalable architecture using .NET 8 (backend) and Vue 3 + TypeScript (frontend).
 
